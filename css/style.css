@@ -14,6 +14,16 @@ body {
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
+.yombi{
+  height: 200px;
+  width: 200px;
+}
+.hey{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 10rem;
+}
 
 a {
   color: #18d26e;
@@ -1174,8 +1184,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #000;
-  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 #team .member .member-info {
